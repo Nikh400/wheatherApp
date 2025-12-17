@@ -88,23 +88,22 @@ whether/
 
 ```bash
 
-git clone https://github.com/USERNAME/REPO\_NAME.git
+git clone https://github.com/Nikhil400/weatherApp.git
 
 cd whether
 
 
 
 2️⃣ Install Required Dependencies
-
+```python
 pip install requests geopy timezonefinder pytz
 
 
 
 3️⃣ Get OpenWeather API Key
 
-
-
-Visit 👉 https://openweathermap.org/api
+``` url
+ https://openweathermap.org/api
 
 
 
@@ -126,6 +125,7 @@ api\_key = "YOUR\_API\_KEY
 
 ▶️ Run the Application
 
+```powershell
 python main.py
 
 
